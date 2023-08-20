@@ -24,22 +24,25 @@ const Chatio = (props) => {
         }
     };
 
-    return <div>
-
-        <ul id="messages">
+    return  <div className="container mt-5">
+        <ul className="list-group mb-3">
             {messages.map((message, index) => (
-                <li key={index}>{message}</li>
+                <li key={index} className="list-group-item">
+                    {message}
+                </li>
             ))}
         </ul>
         <form onSubmit={handleSubmit}>
-            <input
-                type="text"
-                value={messageInput}
-                onChange={(e) => setMessageInput(e.target.value)}
-            />
-            <button type="submit">Send</button>
+            <div className="input-group">
+                <input
+                    type="text"
+                    className="form-control"
+                    value={messageInput}
+                    onChange={(e) => setMessageInput(e.target.value)}
+                />
+                <button type="submit" className="btn btn-primary">Send Message</button>
+            </div>
         </form>
-
     </div>
 }
 
