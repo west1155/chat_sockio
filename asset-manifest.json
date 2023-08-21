@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chat_sockio/static/css/main.666dbd63.css",
-    "main.js": "/chat_sockio/static/js/main.dbc24c19.js",
+    "main.js": "/chat_sockio/static/js/main.0b415a1b.js",
     "static/js/787.e908b0b3.chunk.js": "/chat_sockio/static/js/787.e908b0b3.chunk.js",
     "index.html": "/chat_sockio/index.html",
     "main.666dbd63.css.map": "/chat_sockio/static/css/main.666dbd63.css.map",
-    "main.dbc24c19.js.map": "/chat_sockio/static/js/main.dbc24c19.js.map",
+    "main.0b415a1b.js.map": "/chat_sockio/static/js/main.0b415a1b.js.map",
     "787.e908b0b3.chunk.js.map": "/chat_sockio/static/js/787.e908b0b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.666dbd63.css",
-    "static/js/main.dbc24c19.js"
+    "static/js/main.0b415a1b.js"
   ]
 }
